@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+<body class="bg-black">
+    <div>
+
+        <!-- navbar section  -->
+        <nav>
+            <div class="flex justify-between mt-5 md:ml-20 md:mr-20">
+                <div class="flex ml-5">
+                    <span>
+                        <img class="md:w-20 w-16" src="images/logo.png" alt="">
+                    </span>
+                    <span class="text-white ml-60 text-3xl cursor-pointer md:hidden block"><ion-icon name="menu" onclick="Menu(this)"></ion-icon></span>
+                </div>
+                <div>
+                    <ul class="md:flex md:items-center md:z-auto md:static absolute bg-[#062E38] md:bg-black w-40 right-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                        <li >
+                            <li class="text-white text-[14px] space-x-10 mx-4 my-6 md:my-0">
+                                <a class="hover:bg-[#062E38] p-2 rounded-full" href="#">HOME</a>
+                            </li>
+                            <li class="text-white text-[14px] space-x-10 mx-4 my-6 md:my-0">
+                                <a class="hover:bg-[#062E38] p-2 rounded-full" href="/src/about.html">ABOUT-US</a>
+                            </li>
+                            <li class="text-white text-[14px] space-x-10 mx-4 my-6 md:my-0">
+                               <a class="hover:bg-[#062E38] p-2 rounded-full" href="#services">SERVICES</a>
+                            </li>
+                            <li class="text-white text-[14px] space-x-10 mx-4 my-6 md:my-0">
+                               <a class="hover:bg-[#062E38] p-2 rounded-full" href="/src/portfolio.html">PORTFOLIO</a>
+                            </li>
+                            <li class="text-white text-[14px] space-x-10 mx-4 my-6 md:my-0">
+                               <a class="hover:bg-[#062E38] p-2 rounded-full" href="#contact">CONTACT-US</a>
+                            </li>
+                            <!-- <li class="text-white text-[14px] space-x-10 mx-4 my-6 md:my-0">
+                                <a  class="p-1 pl-2 absolute pr-2 rounded-full md:bg-[#062E38] md:text-white md:hover:bg-white hover:text-[#062E38] bg-white text-[#062E38] hover:bg-black" href="#">GET STARTED</a>
+                                <span class="relative flex h-3 w-3">
+                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full  h-3 w-3 bg-sky-500"></span>
+                                  </span>
+                            </li> -->
+
+                            <!-- <span class="relative flex h-3 w-3">
+                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                              </span> -->
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header section  -->
+
+        <section>
+            <div class="flex justify-between mt-20">
+                
+                <div>
+                    <div>
+                        <p class="text-white md:ml-20 md:mr-20 ml-10 text-[30px] md:text-[60px]  md:font-bold w-80 md:w-auto ">"Unleashing the Power <br> of Imagination in 3D!"</p>
+                        <p class="text-white text-[18px] md:ml-20 md:mr-20 ml-10 md:text-[30px] md:mt-10 mt-4 mb-10">"Step into a World of Animated Wonder: <br> Where Imagination Takes Flight!"</p>
+                        <div>
+                            <a  class="transition ease-in-out hover:-translate-y-5 hover:scale-150 duration-500 ... delay-250 p-2 pl-6 pr-6 md:ml-20 md:mr-20 ml-32 rounded-full bg-[#062E38] text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#contact">Hire Us</a>
+                        </div>
+                        <!-- <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
+                            Save Changes
+                          </button> -->
+                    </div>
+                </div>
+
+                <div class="text-white justify-end md:w-auto w-0">
+                        <img class=" ml-[40%] md:ml-auto md:mr-20 md:w-80 w-0" src="images/logo jefta.png" alt="">
+                        <div class="md:w-[80%] w-0">
+                            <h5 class="md:ml-10 ml-[30%] md:text-[20px] text-[0px] font-bold">MaleekBen 3D Studio</h5>
+                        </div>
+                        <p class="italic md:ml-5 ml-[30%] md:text-[16px] text-[0px] font-light md:w-[80%] w-0">Where Imagination come to live.........</p>
+                </div>
+
+                
+            </div>
+        </section>
+
+
+        <!-- first section  -->
+
+<section>
+    <div class="md:flex md:mt-40 mt-20">
+        <div class="space-y-20">
+          <p class="w-[80%] text-[25px] md:ml-24 ml-16 text-white">WE DON'T MAKE ANIMATION. <br> WE MAKE ANIMATION BETTER.</p>
+          <div class="bg-[#062E38] w-[80%] p-10 md:ml-20 ml-10 rounded-3xl md:mt-10">
+            <img class="w-10 md:ml-[46%] ml-[42%] mt-5" src="images/logo-1.png" alt="">
+            <p class="mt-3 flex justify-center text-white">3D Animation</p>
+            <p class="mt-5 text-white">Unleash Your Imagination in Breathtaking 3D Animation: Where Dreams Come Alive with Spectacular Visuals, Enchanting Characters, and Thrilling Adventures.</p>
+            <!-- <a  class="p-2 pl-6 pr-6 mt-6  rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Hire Us</a> -->
+          </div>
+          <div class="md:flex md:ml-52 md:text-center md:text-white md:bg-[#062E38] md:w-[20%] md:mt-10 md:rounded-full md:pl-6 md:pt-2 md:pb-2 md:pr-2 md:mb-10 hidden">
+            <a href="about.html">view more</a>
+          </div>
+        </div>
+
+        <div class="space-y-10 md:mr-20 mt-10">
+          <div class="bg-[#062E38] w-[80%] p-10 md:ml-20 ml-10 rounded-3xl">
+            <img class="w-10 md:ml-[46%] ml-[42%] mt-5" src="images/logo-3.png" alt="">
+            <p class="mt-3 flex justify-center text-white">3D Modelling</p>
+            <p class="mt-5 text-white"> Discover the Limitless Possibilities of 3D Modelling, Where Vision Meets Virtual Reality and Creativity Knows No Bounds."</p>
+            <!-- <a  class="p-2 pl-6 pr-6 mt-6  rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Hire Us</a> -->
+          </div>
+          <div class="bg-[#062E38] w-[80%] p-10 md:ml-20 ml-10 rounded-3xl">
+            <img class="w-10 md:ml-[46%] ml-[42%] mt-5" src="images/logo-2.png" alt="">
+            <p class="mt-3 flex justify-center text-white">3D Design</p>
+            <p class="mt-5 text-white">Welcome to the Cutting Edge of Design, Where Limitations Dissolve and Innovation Flourishes, Unleashing a World of Endless Inspiration and Wonder."</p>
+            <!-- <a  class="p-2 pl-6 pr-6 mt-6  rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Hire Us</a> -->
+          </div>
+        </div>
+    </div>
+</section>
+
+<!-- about section  -->
+
+  <section>
+    <div class="md:flex md:mt-40 mt-20">
+      <div class="w-[60%] ml-20 ">
+        <img src="images/about-us-jefta.png" alt="">
+      </div>
+      <div class="md:w-[60%] md:mr-20 ml-10 mr-10 text-white">
+        <div class="flex md:ml-0 ml- md:space-x-2 space-x-3">
+          <img class="w-20" src="images/logo-jefta.png" alt="">
+          <img class="md:w-[32%] md:h-[20%] md:mt-5 h-20" src="images/logo.png" alt="">
+        </div>
+        <p>WHO WE ARE</p>
+        <P>Welcome to our 3D Studio, where <br> creativity meets technology, and <br> imagination comes to life! We are <br> a passionate team of artists, <br> animators, and designers <br> dedicated to crafting captivating <br> and visually stunning 3D experiences. <br> We are making the world a better place, <br> one design at a time.</P>
+      </div>
+    </div>
+  </section>
+
+  <!-- next section  -->
+  <div>
+    <!-- <img class="h-80 mt-20 mb-20 w-[100%]" src="../images/bg.png" alt=""> -->
+    <div class=" md:h-[100vh] h-[50vh] mt-20 mb-20 w-[100%]  bg-no-repeat bg-center bg-[url('/src/images/bg.png')] bg-cover">
+      <p class="text-white flex justify-center  md:pt-40 pt-20 md:ml-auto ml-10 md:text-[50px] text-[20px] font-bold">Avoid wasting away your 3D visualizations. <br> Let's bring them to reality.</p>
+      <p class="text-white flex justify-center md:ml-auto ml-10 md:mr-auto mr-5 mt-5 md:text-[20px] text-[14px]">With a relentless pursuit of excellence, we bring your ideas and visions into the <br> realm of virtual reality. From concept development to meticulous 3D modeling, <br> texturing, and animation, we leave no stone unturned in delivering exceptional <br> results.</p>
+      <div class="flex justify-center">
+          <a  class="p-2 pl-6 inline-block pr-6 mt-10 rounded-full bg-[#062E38] text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#contact">Get Started</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+    <!-- what we offer -->
+    <section>
+      <div id="services" class="text-white mt-10 mb-10">
+        <p class="text-[#03D0FD] flex justify-center font-bold">WHAT WE OFFER</p>
+        <P class="md:text-[30px] flex justify-center text-20px">WHERE CREATIVITY AND INNOVATION <br> GOES HAND IN HAND. </P>
+      </div>
+      <div class="md:grid md:grid-cols-3 md:gap-4 space-y-20 md:ml-20 ml-10 mr-10 md:mr-20 mb-20 mt-20">
+        <div class="text-white  md:pb-5 md:mt-20 bg-[#062E38] p-2 md:pt-20 pt-10 rounded-3xl space-y-8 relative">
+          <img class="md:ml-24 ml-24 absolute md:-top-20 -top-10 md:w-40 w-20" src="images/SHAPE-TOOL-q0yowynbb7wm7m4dfgr61mcom3mxdrnaftf2wd21a8.png" alt="">
+          <p class="flex justify-center">3D Modelling</p>
+          <p class="mb-20">"Bringing Characters to Life in the Digital Realm: Exquisite 3D Character Modelling!.   Witness the Meticulous Craftsmanship of Virtual Creations, Sculpted with Precision and Attention to Detail.</p>
+          <a  class="p-2 pl-6 mt-10 md:ml-24 ml-20 inline-block pr-6 rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Read More</a>
+        </div>
+        <div class="text-white bg-[#062E38] p-2 md:pt-20 pt-10 rounded-3xl space-y-8 relative">
+          <img class="md:ml-24 ml-24 absolute md:-top-20 -top-10 md:w-40 w-20" src="images/VIDEO-PLAYER-q0yowzl5i1xwj8309z5sm4457hialgr0ry2kdn0n40.png" alt=""> 
+          <p class="flex justify-center">3D Animation</p>
+          <p> Brace Yourself for a Journey of Unparalleled Creativity, Where Limitations Fade Away and Infinite Possibilities Take Center Stage. Welcome to the Extraordinary World of 3D Animation, Where the Extraordinary Becomes Reality."</p>
+          <a  class="p-2 pl-6 pr-6 mt-10 md:ml-24 ml-20 inline-block rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Read More</a>        
+        </div>
+        <div class="text-white bg-[#062E38] p-2 md:pt-20 pt-10 rounded-3xl space-y-8 relative">
+          <img class=" md:ml-24 ml-24 absolute md:-top-20 -top-10 md:w-40 w-20" src="images/GAMES-q0yowty4d1q6lkb76wq175jdn6a3ba4mr65nhz905c.png" alt="">
+          <p class="flex justify-center">3D Rigging</p>
+          <p> With Cutting-Edge Rigging Techniques, We Illuminate the Path from Imagination to Reality, Elevating the Art of 3D Animation to New Heights. Prepare to be Transfixed by the Artistry of Rigging, Where Technology Breathes Life into Digital Dreams."</p>
+          <a  class="p-2 pl-6 pr-6 mt-6 md:ml-24 ml-20 inline-block rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Read More</a>
+        </div>
+      </div>
+
+      <div class="md:grid md:grid-cols-3 md:gap-4 space-y-20 md:ml-20 ml-10 md:mr-20 mr-10 mb-20 mt-20">
+        <div class="text-white  md:pb-5 md:mt-20 bg-[#062E38] p-2 md:pt-20 pt-10 rounded-3xl space-y-8 relative">
+          <img class="md:ml-24 ml-24 absolute md:-top-20 -top-10 md:w-40 w-20" src="images/COLOR-PALLETES-q0yows2fzdnlycdxhvws260ggejcvvx62wuojfbshs.png" alt="">
+          <p class="flex justify-center">3D Product Design</p>
+          <p class="mb-20">Step into a Digital Showcase of Endless Possibilities, Where Products Evolve from Ideas to Tangible Virtual Prototypes. From Consumer Goods to Industrial Equipment, Each Design Transcends the Ordinary, Inspiring Desire and Pushing the Boundaries of What's Possible.</p>
+          <a  class="p-2 pl-6 md:ml-24 ml-20 inline-block pr-6 rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Read More</a>
+        </div>
+        <div class="text-white bg-[#062E38] p-2 md:pt-20 pt-10 rounded-3xl space-y-8 relative">
+          <img class="md:ml-24 ml-24 absolute md:-top-20 -top-10 md:w-40 w-20" src="images/COLOR-SLIDER-q0yowt0a67ow9yckcebemnrx1seq3l0wf1i60paebk.png" alt=""> 
+          <p class="flex justify-center">3D Game Enviroment</p>
+          <p>Traverse Lush Forests, Scale Towering Mountains, and Explore Enigmatic Ruins as You Uncover the Secrets of a Captivating Virtual Universe. Every Blade of Grass, Every Ray of Sunlight, and Every Whisp of Mist is Carefully Crafted to Ignite Your Senses and Fuel Your Imagination.</p>
+          <a  class="p-2 pl-6 pr-6 mt-6 md:ml-24 ml-20 inline-block rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Read More</a>        
+        </div>
+        <div class="text-white bg-[#062E38] p-2 md:pt-20 pt-10 rounded-3xl space-y-8 relative">
+          <img class="md:ml-24 ml-24 absolute md:-top-20 -top-10 md:w-40 w-20" src="images/pngtree-3d-logo-design-png-image_6139894-removebg-preview.png" alt="">
+          <p class="flex justify-center">3D Design</p>
+          <p>Unleashing Design Excellence in the Digital Realm: Enter a World Where Imagination Takes Shape in Extraordinary 3D Designs. Witness the Fusion of Artistry and Innovation as Boundaries are Redefined, Pushing the Frontiers of Possibility.</p>
+          <a  class="p-2 pl-6 pr-6 mt-6 md:ml-24 ml-20 inline-block rounded-full bg-black text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="md:h-[100vh] h-[70vh] mt-20 mb-20 w-[100%] justify-center items-center bg-no-repeat bg-center bg-[url('/src/images/ahh.png')] bg-cover">
+        <div class="text-overlay">
+
+            <p class="text-white md:text-[50px] text-[30px] md:ml-auto ml-10  md:pt-20 pt-10 font-bold flex justify-center">Want to produce beautiful 3D <br> designs for your company? <br> Let us collaborate with you.</p>
+            <p class="text-white text-[18px] mt-5 flex justify-center md:ml-auto ml-10 md:mr-auto mr-5">Book a free consultation now and see how our 3D studio can bring your project to life!</p>
+            <div class="flex justify-center">
+                <a  class="p-2 pl-6 inline-block pr-6 mt-10 rounded-full bg-[#062E38] text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#contact">Get Started</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section  -->
+    <section>
+      <div class="md:grid md:grid-cols-4 grid grid-cols-2 md:ml-20 ml-10 mr-10 space-y-5 md:mr-20 mt-20">
+          <div class="text-white">
+            <p class=" md:text-[30px] text-[20px] font-bold">OUR PORTFOLIO</p>
+            <P>Overview of the work we have delivered for our client</P>
+          </div>
+          <div>
+            <img class="md:h-[30vh]  hover:h-[50vh] ml-5" src="images/port1.png" alt="">
+          </div>
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh]" src="images/port2.png" alt="">
+          </div>
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh] ml-5" src="images/port8.png" alt="">
+          </div>
+        </div>
+
+        <div class="md:grid md:grid-cols-4 grid grid-cols-2 space-y-5 md:ml-20 ml-10 mr-10 md:mr-20 mb-20 mt-5">
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh]" src="images/port3.png" alt="">
+          </div>
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh] ml-5" src="images/port4.png" alt="">
+          </div>
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh]" src="images/port5.png" alt="">
+          </div>
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh] ml-4" src="images/port9.png" alt="">
+          </div>
+        </div>
+
+        <div class="md:grid md:grid-cols-4 grid grid-cols-2  md:ml-20 ml-10 mr-10 md:mr-20 md:mb-20  md:mt-5">
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh] " src="images/port6.png" alt="">
+          </div>
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh]  ml-5" src="images/port7.png" alt="">
+          </div>
+          <div>
+            <img class="md:h-[30vh] md:hover:h-[50vh]  mt-4" src="images/port8.png" alt="">
+          </div>
+          <!-- <button class="bg-[#062E38]">Explore More</button> -->
+          <div>
+            <a  class="p-2 pl-6 inline-block ml-3 pr-6 mt-10 rounded-full bg-[#062E38] text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="portfolio.html">Explore More</a>
+          </div>
+        </div>
+    </section>
+
+    <!-- why choose us section  -->
+    <section>
+      <div class="md:grid md:grid-cols-2 md:ml-20 ml-10 mr-10 md:mr-20 mt-20 relative">
+        <div class="text-white md:mt-20 mt-[60%] md:space-y-5">
+          <p class="flex md:text-[40px] text-[20px] font-bold md:ml-10 ml-16">Why Choose Us</p>
+          <p class="flex md:text-[18px] text-[14px] ml-10">Making inanimate objects move is the <br> art of animation, which is not a genre.</p>
+          <div>
+            <div class="flex justify-start gap-2">
+              <img class="w-10" src="images/premium.png" alt="">
+              <p class="mt-2 text-lg font-bold">Premium Quality Animations</p>
+            </div>
+            <p class="flex"> Experience Animation at Its Finest, Where Premium Quality Sets the Standard and Transforms Moments into Unforgettable Epics.</p>
+          </div>
+          <div>
+            <div class="flex gap-2">
+              <img class="w-10" src="images/ceative.png" alt="">
+              <p class="mt-2 text-lg font-bold">Creative Team</p>
+            </div>
+            <p class="flex">Our team is a collective  of visionary artists, designers, animators, and storytellers who thrive on pushing the boundaries of creativity.</p>
+          </div>
+          <div>
+            <div class="flex gap-2">
+              <img class="w-10" src="images/clear.png" alt="">
+              <p class="mt-2 text-lg font-bold">Professiona & Clear Design</p>
+            </div>
+            <p class="flex">At our studio, we take great pride in delivering professional and clean design solutions that make a lasting impression.</p>
+          </div>
+          <div>
+            <div class="flex gap-2">
+              <img class="w-10" src="images/247.png" alt="">
+              <p class="mt-2 text-lg font-bold">24/7 Premium Suport</p>
+            </div>
+            <p> Partner with us and experience the difference that 24/7 premium
+              support can make. We're here to support you around the clock, ensuring 
+              that your projects are supported, and your questions are answered promptly.</p>
+          </div>
+        </div>
+
+        <div class="absolute md:-top-0 md:w-[40%] md:h-[50vh] md:ml-[60%]  w-0 h-[30vh] md:mt-10 ml-20">
+          <img src="images/whychoose.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us section  -->
+    <section id="contact">
+      <div class="md:flex mt-20 md:ml-20 ml-0 mr-0 md:mr-20 gap-40">
+        <div>
+          <img class="md:h-[100vh] h-[70vh]" src="images/contatcus.png" alt="">
+        </div>
+        <div class="bg-[#2E2E2E] text-white md:h-[100vh] h-[80vh] md:w-[40%] w-[100%] p-5 md:pb-10 rounded-xl">
+          <p class="md:mt-5 md:text-[30px] text-[20px] md:ml-10 ml-3 font-bold">Contact Us</p>
+          <p class="md:ml-10 ml-3"> Send Us a Message: Your Thoughts and Inquiries <br> Matter to Us!.</p>
+          <form name="submit-to-google-sheet" class="block md:ml-10 ml-3">
+            <input class="md:w-80 w-80 mt-10 h-10 text-white rounded-2xl bg-[#121414] pl-2" type="text" name="Name" placeholder="Name" required>
+            <input class="md:w-80 w-80 rounded-2xl bg-[#121414] pl-2 text-white h-10 mt-4" type="text" name="Email" placeholder="Email">
+            <textarea class="md:w-80 w-80 rounded-2xl mb-5 bg-[#121414] pl-2 pt-2 mt-4" name="Message" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <button class="text-white bg-[#062E38] ml- text-center w-40 p-1 flex rounded-lg justify-center hover:bg-white hover:text-[#062E38] hover:font-extrabold" type="submit" class="text-white">Submit</button>
+            <!-- <a  class="p-2 pl-6  pr-6  rounded-full bg-[#062E38] text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" type="submit" href="#">Send Message</a> -->
+          </form>
+          <div id="msg" class="mb-20 pb-10 ml-10 text-gray-100"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- next section  -->
+    <section>
+      <div>
+        <div class="md:h-[100vh] h-[50vh] mt-20 w-[100%] justify-center items-center bg-no-repeat bg-center bg-[url('/src/images/making.png')] bg-cover">
+      <p class="text-white flex justify-center md:pt-40 pt-20 md:text-[50px] font-extrabold md:ml-auto ml-10 md:mr-auto mr-5 text-[20px]">Making inanimate objects move is the <br> art of animation, which is not a genre.</p>
+      <div>
+        <div class="flex justify-center">
+            <a  class="p-2 pl-6 inline-block pr-6 mt-10 rounded-full bg-[#062E38] text-white md:hover:bg-white hover:text-[#062E38]  hover:bg-black" href="#contact">Hire Us Now</a>
+        </div>
+      </div>
+
+    </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="bg-[#2E2E2E]">
+      <div class="md:grid md:grid-cols-3 mt-5 mb-10">
+        <div class="text-white space-y-4 md:mt-20  md:ml-20 ml-10">
+          <div class="flex w-40">
+            <img class="md:mt-10 mt-10 md:h-20 h-10"  src="images/logo-jefta.png" alt="">
+            <img class="w-60 md:h-20 h-10 md:mt-10 mt-10" src="images/logo.png" alt="">
+          </div>
+          <p class="flex">Where your imaginations come to live......</p>
+          <p class="flex">We are making the world a better place, <br> one design at a time.</p>
+          <div class="space-y-4">
+            <p class="flex">FOLLOW US .......</p>
+            <div class="flex w-10 gap-6">
+            </div>
+              <button class="w-10" onclick="window.location.href='https://wa.me/2348104867557';"><img src="images/Frame1.png" alt=""></button>
+              <button class="w-10 ml-5 " onclick="window.location.href='https://www.facebook.com/profile.php?id=100078083743205';"><img src="images/Frame2.png" alt=""></button>
+              <button class="w-10 ml-5 " onclick="window.location.href='https://www.instagram.com/maleekben3d/';"><img src="images/Frame3.png" alt=""></button>
+              <button class="w-10 ml-5 " onclick="window.location.href='https://wa.link/4ju3h2';"><img src="images/Frame4.png" alt=""></button>
+
+          </div>
+        </div>
+
+        <div class="text-white mt-20 md:ml-40 ml-10 space-y-5">
+          <p class="font-extrabold">Services</p>
+          <p>3D Animation</p>
+          <p>3D Modelling</p>
+          <p>3D Rigging</p>
+          <p>3D Product Design</p>
+          <p>3D Game Enviroment</p>
+          <p>3D Design</p>
+        </div>
+
+        <div class="text-white mt-20 space-y-5 md:ml-0 ml-10">
+          <p class="flex font-extrabold">Contact Us</p>
+          <div class="flex gap-5">
+            <img class="w-8" src="images/Frame5.png" alt="">
+            <p>jefthajr@gmail.com</p>
+          </div>
+          <div class="flex gap-5 mt-4">
+            <img class="w-8" src="images/Frame6.png" alt="">
+            <p>+2348104867557</p>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="text-white mt-5 pb-5 flex justify-center">
+        <p>Copyright © 2023 3DStudioz, All rights reserved.</p>
+      </div>
+    </section>
+
+</div>
+
+  </div>
+
+
+
+    <script>
+        function Menu(e) {
+    let list = document.querySelector('ul');
+
+    e.name === 'menu' ? (e.name = "close", list.classList.add('top-[54px]'), list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[54px]'), list.classList.remove(opacity-100))
+}
+    </script>
+    <!-- <script src="index.js"></script> -->
+    <script>
+        $(document).on('ready', function () {
+          // initialization of aos
+          AOS.init({
+            duration: 650,
+            once: true
+          });
+        });
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzWJE7kb5-YNckGhDvWluJtA7hF5gaFhk8iEIbtjbZAkFXwcsYOxn-kCb7daZtK19wYTw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML = "Message sent Successfully"
+              setTimeout(function(){
+                msg.innerHTML = ""
+              },5000)
+              form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+<script src="../../assets/vendor/aos/dist/aos.js"></script>
+</html>
